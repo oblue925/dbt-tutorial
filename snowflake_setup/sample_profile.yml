@@ -7,9 +7,9 @@ jaffle_shop:
 
       user: [username]
       password: [password]
-      
-      role: [user role]
-      database: [database name]
-      warehouse: [warehouse name]
-      schema: [dbt schema]
-      threads: [1 or more]
+
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: PUBLIC
+      threads: 4

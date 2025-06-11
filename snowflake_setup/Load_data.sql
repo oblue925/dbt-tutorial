@@ -42,3 +42,7 @@ file_format = (type = 'csv' field_optionally_enclosed_by = '"' skip_header = 1);
 select * from raw.jaffle_shop.customers;
 select * from raw.jaffle_shop.orders;
 select * from raw.stripe.payment;
+
+drop table raw.public.my_first_dbt_model;
+drop view raw.public.my_second_dbt_model;
+drop view raw.public.customers;
